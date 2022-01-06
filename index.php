@@ -1,6 +1,6 @@
 <?php
 require_once './autoload.php';
-$pages = ['home', 'add', 'update', 'delete', 'logout'];
+$pages = ['home', 'add', 'update', 'delete', 'logout','about'];
 require_once './views/includes/header.php';
 $home = new HomeController();
 if (isset($_SESSION['logged']) && $_SESSION['logged'] === true) {
